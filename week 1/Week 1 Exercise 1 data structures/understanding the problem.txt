@@ -1,0 +1,26 @@
+Efficient inventory management depends on how well data is stored and accessed. When dealing with a large number of products, it's important to use the right data structures so that operations like searching, updating, or deleting don’t become slow.
+
+Using the wrong structure can lead to poor performance. For example, searching for a product in a list takes time proportional to the number of products (O(n)), while using a HashMap allows the same search to be done almost instantly (O(1)).
+
+For this kind of system, structures like HashMap work best when quick access by a unique product ID is needed. If sorting or ordering is important, TreeMap or similar alternatives can be used.
+
+
+Array/List
+Useful for small inventories or when order matters. But to find or update a product by productId, you have to scan the whole list this makes operations like search, update, and delete slow (O(n)) as inventory grows.
+
+
+HashMap/Dictionary
+Ideal for large inventories where each product has a unique productId. It stores data as key-value pairs, so you can add, update, delete, or search in constant time (O(1)). Perfect for quick lookups.
+
+
+TreeMap or Similar
+Useful when products need to be kept in sorted order (e.g., sorted by productId or price). Operations take O(log n) time, so it’s slightly slower than HashMap but better for range queries or ordered reports.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+1. Understanding Recursive Algorithms
+Recursion is when a function calls itself to solve a smaller piece of the same problem. It helps break down complex problems into simpler subproblems. For example, when calculating future value year by year, recursion lets us model that naturally: the value after n years is just the value after n-1 years, multiplied by the growth rate. This kind of step-by-step breakdown makes recursive code easier to read and write for problems that repeat a pattern.
+
+2. Setup
+In this task, we created a method to calculate the future value of something (like Bitcoin) using recursion. We fetched the current value using a real-time API (CoinGecko) and assumed a fixed annual growth rate (like 7%). The recursive function takes the current value, applies the growth rate, and keeps calling itself for each remaining year until it reaches zero.
+
+3. Implementation
+We implemented two functions:
+
+A basic recursive version that multiplies the value by (1 + rate) every year
+
+A memoized version that stores previous results so it doesn’t repeat the same calculation
+
+We used the CoinGecko API to get the live Bitcoin price in USD as our starting point. Then the user enters how many years to predict into the future, and both recursive methods return the forecasted value.
+
+4. Analysis
+The time complexity of the basic recursive function is O(n), where n is the number of years. For small values of n, this works fine, but for large n, it can become slow or cause a stack overflow. That’s why we also wrote a memoized version, which saves past results in a dictionary. This avoids recalculating the same thing and makes it more efficient.
+
+Overall, recursion made it easy to write and understand the logic. Memoization helped optimize the performance and avoid redundant work.

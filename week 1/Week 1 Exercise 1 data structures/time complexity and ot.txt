@@ -1,0 +1,24 @@
+Add
+
+Time Complexity: O(1) average, O(n) worst case
+
+Why: Uses productId as key for direct insert. Worst case only if many hash collisions.
+
+Optimization: Set initial capacity early. Use unique, well-distributed keys.
+
+Update
+
+Time Complexity: O(1) average, O(n) worst case
+
+Why: Lookup by key and update field. Worst case if many keys hash to same bucket.
+
+Optimization: Check existence with .containsKey() or .TryGetValue(). Use proper hash structure.
+
+Delete
+
+Time Complexity: O(1) average, O(n) worst case
+
+Why: Removal by key is direct. Slows down only with severe hash collisions.
+
+Optimization: Avoid redundant deletes. Keep keys well-distributed and avoid patterns in IDs.
+

@@ -1,0 +1,35 @@
+4. Time Complexity Comparison and Suitability
+
+Linear Search:
+
+Time Complexity:
+
+Best Case: O(1) – when the item is at the start
+
+Average Case: O(n)
+
+Worst Case: O(n) – when the item is at the end or not found
+
+Explanation:
+Linear search goes through each element one by one until it finds a match. It does not require the array to be sorted, but it's inefficient for large datasets.
+
+Binary Search:
+
+Time Complexity:
+
+Best Case: O(1) – if the middle element is the match
+
+Average Case: O(log n)
+
+Worst Case: O(log n)
+
+Explanation:
+Binary search works only on sorted arrays. It repeatedly divides the search space in half, significantly reducing the number of comparisons needed.
+
+Suitability for the E-commerce Platform:
+
+For an e-commerce platform with a large product catalog, binary search is more suitable as it offers faster performance (O(log n)). Since users often search by product ID or name, and the data can be sorted or indexed, binary search provides quick results.
+
+However, if the product list is unsorted or constantly changing without time to sort, linear search might be easier to implement in those cases.
+
+In a practical system, we'd use databases with indexing or hash-based lookups, but within the scope of array-based searching, binary search is preferred for its efficiency.

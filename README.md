@@ -1,1 +1,1 @@
-adding everything week wise as I complete them
+Did everything in java first added c# files and outputs in file hierarchy

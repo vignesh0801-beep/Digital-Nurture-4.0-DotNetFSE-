@@ -1,0 +1,14 @@
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\bin\Debug\net9.0\c sharp out and code.exe
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\bin\Debug\net9.0\c sharp out and code.deps.json
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\bin\Debug\net9.0\c sharp out and code.runtimeconfig.json
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\bin\Debug\net9.0\c sharp out and code.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\bin\Debug\net9.0\c sharp out and code.pdb
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.AssemblyInfoInputs.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.AssemblyInfo.cs
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.csproj.CoreCompileInputs.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\refint\c sharp out and code.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.pdb
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\c sharp out and code.genruntimeconfig.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 Exercise 1 data structures\c sharp out and code\obj\Debug\net9.0\ref\c sharp out and code.dll

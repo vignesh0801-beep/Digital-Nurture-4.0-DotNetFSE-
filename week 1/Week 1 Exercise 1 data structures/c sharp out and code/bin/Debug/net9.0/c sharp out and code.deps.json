@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "c sharp out and code/1.0.0": {
+        "runtime": {
+          "c sharp out and code.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c sharp out and code/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

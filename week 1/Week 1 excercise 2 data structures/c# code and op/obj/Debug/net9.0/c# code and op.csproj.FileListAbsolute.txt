@@ -1,0 +1,14 @@
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\bin\Debug\net9.0\c# code and op.exe
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\bin\Debug\net9.0\c# code and op.deps.json
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\bin\Debug\net9.0\c# code and op.runtimeconfig.json
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\bin\Debug\net9.0\c# code and op.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\bin\Debug\net9.0\c# code and op.pdb
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.AssemblyInfoInputs.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.AssemblyInfo.cs
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.csproj.CoreCompileInputs.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\refint\c# code and op.dll
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.pdb
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\c# code and op.genruntimeconfig.cache
+C:\Users\KIIT\Desktop\DN\week 1\Week 1 excercise 2 data structures\c# code and op\obj\Debug\net9.0\ref\c# code and op.dll

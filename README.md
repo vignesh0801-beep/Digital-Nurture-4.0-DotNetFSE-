@@ -1,1 +1,1 @@
-Did everything in java first added c# files and outputs in file hierarchy
+c# code and output in file hierarchy under individual week folders

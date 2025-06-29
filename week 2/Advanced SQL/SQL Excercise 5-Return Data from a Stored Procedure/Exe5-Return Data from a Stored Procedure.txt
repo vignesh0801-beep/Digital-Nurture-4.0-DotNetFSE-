@@ -1,0 +1,72 @@
+--4. SQL Exercise - Stored procedure
+
+--Database Schema
+
+CREATE TABLE Departments (
+    DepartmentID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-increment
+    DepartmentName VARCHAR(100)
+);
+
+
+CREATE TABLE Employees (
+    EmployeeID INT IDENTITY(1,1) PRIMARY KEY, -- Auto-increment
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT FOREIGN KEY REFERENCES Departments(DepartmentID),
+    Salary DECIMAL(10,2),
+    JoinDate DATE
+);
+
+--Sample Data 
+
+INSERT INTO Departments (DepartmentName) VALUES 
+('HR'), 
+('Finance'), 
+('IT'), 
+('Marketing'); 
+
+INSERT INTO Employees (FirstName, LastName, DepartmentID, Salary, 
+JoinDate) VALUES 
+('John', 'Doe', 1, 5000.00, '2020-01-15'), 
+('Jane', 'Smith', 2, 6000.00, '2019-03-22'), 
+('Michael', 'Johnson', 3, 7000.00, '2018-07-30'), 
+('Emily', 'Davis', 4, 5500.00, '2021-11-05'); 
+
+--Select * from Departments;
+--Select * from Employees;
+
+--delete from Employees where FirstName = 'Sourav';
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+Exercise 5: Return Data from a Stored Procedure 
+Goal: Create a stored procedure that returns the total number of employees in a 
+department. 
+Steps: 
+1. Define the stored procedure with a parameter for DepartmentID. 
+2. Write the SQL query to count the number of employees in the specified department. 
+3. Save the stored procedure by executing the Stored procedure content. 
+
+Solution:- 
+
+
+--Exercise 5: Return Data from a Stored Procedure
+
+CREATE PROCEDURE sp_CountEmployeesByDepartment
+    @DepartmentID INT
+AS
+BEGIN
+    SELECT 
+        COUNT(*) AS TotalEmployees
+    FROM 
+        Employees
+    WHERE 
+        DepartmentID = @DepartmentID;
+END;
+
+EXEC sp_CountEmployeesByDepartment @DepartmentID = 3;
+
+--DROP PROCEDURE sp_CountEmployeesByDepartment;
+
+
